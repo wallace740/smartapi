@@ -10,6 +10,8 @@
 /Users/murataydin/Projects/Wallace740-SmartApi/UnitTest/bin/Debug/net5.0/ref/UnitTest.dll
 /Users/murataydin/Projects/Wallace740-SmartApi/UnitTest/bin/Debug/net5.0/UnitTest.pdb
 /Users/murataydin/Projects/Wallace740-SmartApi/UnitTest/bin/Debug/net5.0/FireSharp.dll
+/Users/murataydin/Projects/Wallace740-SmartApi/UnitTest/bin/Debug/net5.0/MediatR.dll
+/Users/murataydin/Projects/Wallace740-SmartApi/UnitTest/bin/Debug/net5.0/MediatR.Extensions.Microsoft.DependencyInjection.dll
 /Users/murataydin/Projects/Wallace740-SmartApi/UnitTest/bin/Debug/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
 /Users/murataydin/Projects/Wallace740-SmartApi/UnitTest/bin/Debug/net5.0/Microsoft.AspNetCore.Authorization.dll
 /Users/murataydin/Projects/Wallace740-SmartApi/UnitTest/bin/Debug/net5.0/Microsoft.AspNetCore.Metadata.dll
@@ -109,6 +111,7 @@
 /Users/murataydin/Projects/Wallace740-SmartApi/UnitTest/bin/Debug/net5.0/Wallace740-SmartApi.pdb
 /Users/murataydin/Projects/Wallace740-SmartApi/UnitTest/bin/Debug/net5.0/BusinessCore.pdb
 /Users/murataydin/Projects/Wallace740-SmartApi/UnitTest/bin/Debug/net5.0/DALCore.pdb
+/Users/murataydin/Projects/Wallace740-SmartApi/UnitTest/obj/Debug/net5.0/UnitTest.csprojAssemblyReference.cache
 /Users/murataydin/Projects/Wallace740-SmartApi/UnitTest/obj/Debug/net5.0/UnitTest.GeneratedMSBuildEditorConfig.editorconfig
 /Users/murataydin/Projects/Wallace740-SmartApi/UnitTest/obj/Debug/net5.0/UnitTest.AssemblyInfoInputs.cache
 /Users/murataydin/Projects/Wallace740-SmartApi/UnitTest/obj/Debug/net5.0/UnitTest.AssemblyInfo.cs
@@ -118,4 +121,3 @@
 /Users/murataydin/Projects/Wallace740-SmartApi/UnitTest/obj/Debug/net5.0/ref/UnitTest.dll
 /Users/murataydin/Projects/Wallace740-SmartApi/UnitTest/obj/Debug/net5.0/UnitTest.pdb
 /Users/murataydin/Projects/Wallace740-SmartApi/UnitTest/obj/Debug/net5.0/UnitTest.genruntimeconfig.cache
-/Users/murataydin/Projects/Wallace740-SmartApi/UnitTest/obj/Debug/net5.0/UnitTest.csprojAssemblyReference.cache

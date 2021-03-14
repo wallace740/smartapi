@@ -1,27 +1,28 @@
 ﻿<Properties StartupConfiguration="{94D8BD36-4275-46AD-8C2D-A167BF147774}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Wallace740-SmartApi/Properties/launchSettings.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Wallace740-SmartApi/appsettings.json">
     <Files>
-      <File FileName="Wallace740-SmartApi/Controllers/WeatherForecastController.cs" Line="25" Column="10" />
-      <File FileName="Wallace740-SmartApi/Program.cs" Line="1" Column="1" />
-      <File FileName="Wallace740-SmartApi/appsettings.json" Line="13" Column="41" />
-      <File FileName="UnitTest/UnitTest1.cs" Line="23" Column="1" />
-      <File FileName="Business/MyClass.cs" Line="1" Column="1" />
-      <File FileName="Wallace740-SmartApi/Startup.cs" Line="33" Column="53" />
-      <File FileName="BusinessCore/Services/ProductService.cs" Line="32" Column="10" />
-      <File FileName="Wallace740-SmartApi/Controllers/ApiController.cs" Line="25" Column="23" />
-      <File FileName="Wallace740-SmartApi/OAuth/HasScopeRequirement.cs" Line="14" Column="28" />
-      <File FileName="UnitTest/BaseTest.cs" Line="37" Column="35" />
-      <File FileName="Wallace740-SmartApi/OAuth/HasScopeHandler.cs" Line="24" Column="1" />
-      <File FileName="BusinessCore/Interfaces/IProductService.cs" Line="11" Column="23" />
-      <File FileName="DALCore/IDbRepository.cs" Line="6" Column="22" />
-      <File FileName="DALCore/Repositories/ProductRepository.cs" Line="53" Column="40" />
-      <File FileName="DALCore/Entity/Product.cs" Line="6" Column="18" />
-      <File FileName="DALCore/Common/BaseModel.cs" Line="4" Column="18" />
-      <File FileName="DALCore/Constants/FireBaseConstants.cs" Line="6" Column="28" />
-      <File FileName="UnitTest/TokenInputModel.cs" Line="9" Column="47" />
-      <File FileName="DALCore/Helpers/FireBaseHelper.cs" Line="79" Column="107" />
-      <File FileName="DALCore/appsettings.json" Line="4" Column="76" />
-      <File FileName="Wallace740-SmartApi/Properties/launchSettings.json" Line="2" Column="43" />
+      <File FileName="Wallace740-SmartApi/Controllers/ApiController.cs" Line="71" Column="30" />
+      <File FileName="Wallace740-SmartApi/Query/ProductQueryHandler.cs" Line="13" Column="25" />
+      <File FileName="Wallace740-SmartApi/Query/ProductQuery.cs" Line="7" Column="50" />
+      <File FileName="Wallace740-SmartApi/Controllers/GetProductsQuery.cs" Line="7" Column="1" />
+      <File FileName="Wallace740-SmartApi/Command/InsertProductCommand.cs" Line="4" Column="1" />
+      <File FileName="Wallace740-SmartApi/Startup.cs" Line="42" Column="37" />
+      <File FileName="Wallace740-SmartApi/Query/GetProductsQuery.cs" Line="9" Column="1" />
+      <File FileName="Wallace740-SmartApi/Command/InsertQueryHandler.cs" Line="8" Column="38" />
+      <File FileName="Wallace740-SmartApi/Command/UpdateProductCommand.cs" Line="12" Column="10" />
+      <File FileName="Wallace740-SmartApi/Controllers/WeatherForecastController.cs" Line="24" Column="48" />
+      <File FileName="Wallace740-SmartApi/Command/UpdateQueryHandler.cs" Line="13" Column="23" />
+      <File FileName="Wallace740-SmartApi/Command/UpdateCommandHandler.cs" Line="8" Column="38" />
+      <File FileName="Wallace740-SmartApi/Query/ProductsQueryHandler.cs" Line="17" Column="10" />
+      <File FileName="Wallace740-SmartApi/Command/InsertCommandHandler.cs" Line="11" Column="36" />
+      <File FileName="BusinessCore/Interfaces/IProductService.cs" Line="1" Column="1" />
+      <File FileName="BusinessCore/Services/ProductService.cs" Line="15" Column="10" />
+      <File FileName="DALCore/Common/BaseModel.cs" Line="1" Column="1" />
+      <File FileName="DALCore/Entity/Product.cs" Line="1" Column="1" />
+      <File FileName="DALCore/Helpers/FireBaseHelper.cs" Line="1" Column="1" />
+      <File FileName="DALCore/Repositories/ProductRepository.cs" Line="45" Column="10" />
+      <File FileName="Wallace740-SmartApi/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="Wallace740-SmartApi/appsettings.json" Line="12" Column="64" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -38,14 +39,14 @@
               <Node name="Helpers" expanded="True" />
               <Node name="Repositories" expanded="True" />
             </Node>
+            <Node name="UnitTest" expanded="True" />
             <Node name="Wallace740-SmartApi" expanded="True">
-              <Node name="Dependencies" expanded="True" />
+              <Node name="Command" expanded="True" />
               <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True" />
               <Node name="OAuth" expanded="True" />
-              <Node name="Properties" expanded="True">
-                <Node name="launchSettings.json" selected="True" />
-              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="Query" expanded="True" />
+              <Node name="appsettings.json" selected="True" />
             </Node>
           </Node>
         </State>
@@ -55,15 +56,7 @@
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="Wallace740-SmartApi" expanded="True">
-            <Node name="UnitTest" expanded="True">
-              <Node name="UnitTest" expanded="True">
-                <Node name="SmartUnitTest" expanded="True">
-                  <Node name="GetPrivateScoped_Test" selected="True" />
-                </Node>
-              </Node>
-            </Node>
-          </Node>
+          <Node name="Wallace740-SmartApi" expanded="True" />
         </State>
       </Pad>
     </Pads>
@@ -73,10 +66,8 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/murataydin/Projects/Wallace740-SmartApi/Wallace740-SmartApi/OAuth/HasScopeHandler.cs" relfile="Wallace740-SmartApi/OAuth/HasScopeHandler.cs" line="11" column="1" />
       <Breakpoint file="/Users/murataydin/Projects/Wallace740-SmartApi/UnitTest/BaseTest.cs" relfile="UnitTest/BaseTest.cs" line="37" column="1" />
       <Breakpoint file="/Users/murataydin/Projects/Wallace740-SmartApi/UnitTest/SmartUnitTest.cs" relfile="UnitTest/SmartUnitTest.cs" line="51" column="1" />
-      <Breakpoint file="/Users/murataydin/Projects/Wallace740-SmartApi/Wallace740-SmartApi/Controllers/ApiController.cs" relfile="Wallace740-SmartApi/Controllers/ApiController.cs" line="39" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

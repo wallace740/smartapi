@@ -4,8 +4,10 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using BusinessCore;
 using BusinessCore.Services;
-using BusinessCore.Interfaces;
 using DALCore.Entity;
+using MediatR;
+using Wallace740_SmartApi.Query;
+using Wallace740_SmartApi.Command;
 
 namespace Wallace740_SmartApi.Controllers
 {
@@ -13,11 +15,11 @@ namespace Wallace740_SmartApi.Controllers
     [ApiController]
     public class ApiController : ControllerBase
     {
-        private IProductService _productService;
+        private readonly IMediator _med;
 
-        public ApiController(IProductService service)
+        public ApiController(IMediator mediator)
         {
-            _productService = service;
+            _med = mediator;
         }
 
         /// <summary>
@@ -32,32 +34,48 @@ namespace Wallace740_SmartApi.Controllers
             });
         }
 
-        [HttpPost("get-products")]
-        [Authorize]  //("read:products")
+        /// <summary>
+        /// Get specific Product
+        /// </summary>
+        /// <param name="id"></param>
+        [HttpGet("get-product")]
+        [Authorize("read:products")]
+        public IActionResult GetProductById(string id)
+        {
+            var tResult = _med.Send(new ProductQuery(id));
+
+            return new JsonResult(tResult.Result);
+        }
+
+        /// <summary>
+        /// Gets all products
+        /// </summary>
+        [HttpGet("get-products")]
+        [Authorize("read:products")]
         public IActionResult GetProducts()
         {
-            var products = _productService.GetProducts();
+            var tResult = _med.Send(new GetProductsQuery());
 
-            return new JsonResult(products);
+            return new JsonResult(tResult.Result);
         }
 
         [HttpPost("insert")]
-        [Authorize]
+        [Authorize("write:products")]
         public IActionResult Insert(Product insertProduct)
         {
-            var newProduct = _productService.InsertProduct(insertProduct);
-
-            return new JsonResult(newProduct);
+            _med.Send(new InsertProductCommand(insertProduct));
+            return new JsonResult(insertProduct);
         }
 
         [HttpPost("update")]
-        [Authorize]
+        [Authorize("write:products")]
         public IActionResult Update(Product updateProduct)
         {
-            var product = _productService.UpdateProduct(updateProduct);
-
-            return new JsonResult(product);
+            _med.Send(new UpdateProductCommand(updateProduct));
+            return new JsonResult(updateProduct);
         }
+
+        #region Test endpoint public / private region
 
         [HttpGet("public")]
         public IActionResult Public()
@@ -77,28 +95,9 @@ namespace Wallace740_SmartApi.Controllers
                 Message = "Success, OK from private endpoint! You are authenticated to see this."
             });
         }
+        #endregion
 
-
-
-        [HttpPost("private-scoped")]
-        [Authorize]  //("read:products")
-        public IActionResult Scoped()
-        {
-            var products = _productService.GetProducts();
-
-            return new JsonResult(products);
-        }
-
-        // This is a helper action. It allows you to easily view all the claims of the token.
-        [HttpGet("claims")]
-        public IActionResult Claims()
-        {
-            return Ok(User.Claims.Select(c =>
-                new
-                {
-                    c.Type,
-                    c.Value
-                }));
-        }
     }
 }
+
+

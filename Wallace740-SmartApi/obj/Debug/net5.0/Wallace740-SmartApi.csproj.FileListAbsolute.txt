@@ -7,6 +7,8 @@
 /Users/murataydin/Projects/Wallace740-SmartApi/Wallace740-SmartApi/bin/Debug/net5.0/ref/Wallace740-SmartApi.dll
 /Users/murataydin/Projects/Wallace740-SmartApi/Wallace740-SmartApi/bin/Debug/net5.0/Wallace740-SmartApi.pdb
 /Users/murataydin/Projects/Wallace740-SmartApi/Wallace740-SmartApi/bin/Debug/net5.0/FireSharp.dll
+/Users/murataydin/Projects/Wallace740-SmartApi/Wallace740-SmartApi/bin/Debug/net5.0/MediatR.dll
+/Users/murataydin/Projects/Wallace740-SmartApi/Wallace740-SmartApi/bin/Debug/net5.0/MediatR.Extensions.Microsoft.DependencyInjection.dll
 /Users/murataydin/Projects/Wallace740-SmartApi/Wallace740-SmartApi/bin/Debug/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
 /Users/murataydin/Projects/Wallace740-SmartApi/Wallace740-SmartApi/bin/Debug/net5.0/Microsoft.AspNetCore.Authorization.dll
 /Users/murataydin/Projects/Wallace740-SmartApi/Wallace740-SmartApi/bin/Debug/net5.0/Microsoft.AspNetCore.Metadata.dll

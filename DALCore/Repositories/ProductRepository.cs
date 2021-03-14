@@ -12,17 +12,7 @@ namespace DALCore.Repositories
         public static FireBaseHelper DHelper { get => dHelper; set => dHelper = value; }
 
         private static FireBaseHelper dHelper = null;
-        //public static FireBaseHelper DataHelper
-        //{
-        //    get
-        //    {
-        //        if (dHelper == null)
-        //        {
-        //            dHelper = new FireBaseHelper(tableName);
-        //        }
-        //        return dHelper;
-        //    }
-        //}
+
 
         public ProductRepository()
         {
@@ -53,7 +43,6 @@ namespace DALCore.Repositories
             var result = DHelper.UpdateItemToDB(item);
             return result;
         }
-
 
     }
 }

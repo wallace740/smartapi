@@ -20,6 +20,9 @@ using BusinessCore.Services;
 using DALCore;
 using DALCore.Entity;
 using DALCore.Repositories;
+using MediatR;
+using Wallace740_SmartApi.Query;
+using Wallace740_SmartApi.Command;
 
 namespace Wallace740_SmartApi
 {
@@ -37,20 +40,14 @@ namespace Wallace740_SmartApi
         {
             services.AddScoped<IDbRepository<Product>, ProductRepository>();
             services.AddScoped<IProductService, ProductService>();
+            services.AddScoped<IMediator, Mediator>();
+
+            services.AddMediatR(typeof(ProductQueryHandler));
+            services.AddMediatR(typeof(ProductsQueryHandler));
+            services.AddMediatR(typeof(InsertCommandHandler));
+            services.AddMediatR(typeof(UpdateCommandHandler));
 
 
-            //services.AddCors(options =>
-            //{
-            //    options.AddPolicy("AllowSpecificOrigin",
-            //        builder =>
-            //        {
-            //            builder
-            //            .WithOrigins("http://localhost:8080")
-            //            .AllowAnyMethod()
-            //            .AllowAnyHeader()
-            //            .AllowCredentials();
-            //        });
-            //});
             services.AddCors(options => options.AddPolicy("AllowAll", p => p.AllowAnyOrigin()
                .AllowAnyMethod()
                .AllowAnyHeader()));
@@ -65,24 +62,10 @@ namespace Wallace740_SmartApi
                 options.Authority = domain;
                 options.Audience = Configuration["Auth0:Audience"];
             });
-            //services
-            //    .AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-            //    .AddJwtBearer(options =>
-            //    {
-            //        options.Authority = domain;
-            //        options.Audience = Configuration["Auth0:Audience"];
-            //        // If the access token does not have a `sub` claim, `User.Identity.Name` will be `null`. Map it to a different claim by setting the NameClaimType below.
-            //        //options.TokenValidationParameters = new TokenValidationParameters
-            //        //{
-            //        //    NameClaimType = ClaimTypes.NameIdentifier
-            //        //};
-            //    });
-
 
             // Register the scope authorization handler
             services.AddAuthorization(options =>
             {
-                //options.AddPolicy("read:messages", policy => policy.Requirements.Add(new HasScopeRequirement("read:messages", domain)));
                 options.AddPolicy("read:products", policy => policy.Requirements.Add(new HasScopeRequirement("read:products", domain)));
                 options.AddPolicy("write:products", policy => policy.Requirements.Add(new HasScopeRequirement("write:products", domain)));
             });
@@ -92,7 +75,6 @@ namespace Wallace740_SmartApi
 
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
@@ -120,7 +102,6 @@ namespace Wallace740_SmartApi
 
             app.UseEndpoints(endpoints =>
             {
-                //endpoints.MapDefaultControllerRoute();
                 endpoints.MapControllers();
             });
         }

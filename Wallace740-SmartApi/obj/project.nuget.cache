@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "SOFAXIv7jZ3E19qwvl0W5PtM7x1JtHXItGCXeJhO4NcecPeJ/ahE9nE8QJe+K3rcEAn1bbzgofksyUzF1VM/Zg==",
+  "dgSpecHash": "QSXpSo4o+smGyXdfp8DTchrY1KdVDgYzM7rrFP3rGP8YUB6EQRDkhqq46vwjGbORLLE3veDHHe639UrZ1dJksw==",
   "success": true,
   "projectFilePath": "/Users/murataydin/Projects/Wallace740-SmartApi/Wallace740-SmartApi/Wallace740-SmartApi.csproj",
   "expectedPackageFiles": [
     "/Users/murataydin/.nuget/packages/firesharp/2.0.4/firesharp.2.0.4.nupkg.sha512",
+    "/Users/murataydin/.nuget/packages/mediatr/9.0.0/mediatr.9.0.0.nupkg.sha512",
+    "/Users/murataydin/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/9.0.0/mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "/Users/murataydin/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/5.0.4/microsoft.aspnetcore.authentication.jwtbearer.5.0.4.nupkg.sha512",
     "/Users/murataydin/.nuget/packages/microsoft.aspnetcore.authorization/5.0.4/microsoft.aspnetcore.authorization.5.0.4.nupkg.sha512",
     "/Users/murataydin/.nuget/packages/microsoft.aspnetcore.metadata/5.0.4/microsoft.aspnetcore.metadata.5.0.4.nupkg.sha512",

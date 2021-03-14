@@ -38,7 +38,7 @@ namespace UnitTest
             request.AddHeader("content-type", "application/json");
             request.AddHeader("authorization", "Bearer " + tokenValue); //MGMT_API_ACCESS_TOKEN
             request.AddHeader("cache-control", "no-cache");
-            request.AddParameter("application/json", "{ \"scopes\": [ { \"value\": \"write:products\", \"description\": \"Admin role\" }, { \"value\": \"read:products\", \"description\": \"Consumer role\" } ] }", ParameterType.RequestBody);
+            //request.AddParameter("application/json", "{ \"scopes\": [ { \"value\": \"write:products\", \"description\": \"Admin role\" }, { \"value\": \"read:products\", \"description\": \"Consumer role\" } ] }", ParameterType.RequestBody);
             IRestResponse response = client.Execute(request);
             var x = response;
         }
