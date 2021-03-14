@@ -1,0 +1,15 @@
+/Users/murataydin/Projects/Wallace740-SmartApi/BusinessCore/bin/Debug/net5.0/BusinessCore.deps.json
+/Users/murataydin/Projects/Wallace740-SmartApi/BusinessCore/bin/Debug/net5.0/BusinessCore.dll
+/Users/murataydin/Projects/Wallace740-SmartApi/BusinessCore/bin/Debug/net5.0/ref/BusinessCore.dll
+/Users/murataydin/Projects/Wallace740-SmartApi/BusinessCore/bin/Debug/net5.0/BusinessCore.pdb
+/Users/murataydin/Projects/Wallace740-SmartApi/BusinessCore/bin/Debug/net5.0/DALCore.dll
+/Users/murataydin/Projects/Wallace740-SmartApi/BusinessCore/bin/Debug/net5.0/DALCore.pdb
+/Users/murataydin/Projects/Wallace740-SmartApi/BusinessCore/obj/Debug/net5.0/BusinessCore.csprojAssemblyReference.cache
+/Users/murataydin/Projects/Wallace740-SmartApi/BusinessCore/obj/Debug/net5.0/BusinessCore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/murataydin/Projects/Wallace740-SmartApi/BusinessCore/obj/Debug/net5.0/BusinessCore.AssemblyInfoInputs.cache
+/Users/murataydin/Projects/Wallace740-SmartApi/BusinessCore/obj/Debug/net5.0/BusinessCore.AssemblyInfo.cs
+/Users/murataydin/Projects/Wallace740-SmartApi/BusinessCore/obj/Debug/net5.0/BusinessCore.csproj.CoreCompileInputs.cache
+/Users/murataydin/Projects/Wallace740-SmartApi/BusinessCore/obj/Debug/net5.0/BusinessCore.csproj.CopyComplete
+/Users/murataydin/Projects/Wallace740-SmartApi/BusinessCore/obj/Debug/net5.0/BusinessCore.dll
+/Users/murataydin/Projects/Wallace740-SmartApi/BusinessCore/obj/Debug/net5.0/ref/BusinessCore.dll
+/Users/murataydin/Projects/Wallace740-SmartApi/BusinessCore/obj/Debug/net5.0/BusinessCore.pdb

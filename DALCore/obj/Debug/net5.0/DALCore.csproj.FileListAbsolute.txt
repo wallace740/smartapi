@@ -1,0 +1,12 @@
+/Users/murataydin/Projects/Wallace740-SmartApi/DALCore/bin/Debug/net5.0/DALCore.deps.json
+/Users/murataydin/Projects/Wallace740-SmartApi/DALCore/bin/Debug/net5.0/DALCore.dll
+/Users/murataydin/Projects/Wallace740-SmartApi/DALCore/bin/Debug/net5.0/ref/DALCore.dll
+/Users/murataydin/Projects/Wallace740-SmartApi/DALCore/bin/Debug/net5.0/DALCore.pdb
+/Users/murataydin/Projects/Wallace740-SmartApi/DALCore/obj/Debug/net5.0/DALCore.csprojAssemblyReference.cache
+/Users/murataydin/Projects/Wallace740-SmartApi/DALCore/obj/Debug/net5.0/DALCore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/murataydin/Projects/Wallace740-SmartApi/DALCore/obj/Debug/net5.0/DALCore.AssemblyInfoInputs.cache
+/Users/murataydin/Projects/Wallace740-SmartApi/DALCore/obj/Debug/net5.0/DALCore.AssemblyInfo.cs
+/Users/murataydin/Projects/Wallace740-SmartApi/DALCore/obj/Debug/net5.0/DALCore.csproj.CoreCompileInputs.cache
+/Users/murataydin/Projects/Wallace740-SmartApi/DALCore/obj/Debug/net5.0/DALCore.dll
+/Users/murataydin/Projects/Wallace740-SmartApi/DALCore/obj/Debug/net5.0/ref/DALCore.dll
+/Users/murataydin/Projects/Wallace740-SmartApi/DALCore/obj/Debug/net5.0/DALCore.pdb
