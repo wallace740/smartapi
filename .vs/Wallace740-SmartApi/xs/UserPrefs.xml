@@ -1,12 +1,12 @@
 ﻿<Properties StartupConfiguration="{94D8BD36-4275-46AD-8C2D-A167BF147774}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Wallace740-SmartApi/appsettings.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Wallace740-SmartApi/WeatherForecast.cs">
     <Files>
       <File FileName="Wallace740-SmartApi/Controllers/ApiController.cs" Line="71" Column="30" />
       <File FileName="Wallace740-SmartApi/Query/ProductQueryHandler.cs" Line="13" Column="25" />
       <File FileName="Wallace740-SmartApi/Query/ProductQuery.cs" Line="7" Column="50" />
       <File FileName="Wallace740-SmartApi/Controllers/GetProductsQuery.cs" Line="7" Column="1" />
       <File FileName="Wallace740-SmartApi/Command/InsertProductCommand.cs" Line="4" Column="1" />
-      <File FileName="Wallace740-SmartApi/Startup.cs" Line="42" Column="37" />
+      <File FileName="Wallace740-SmartApi/Startup.cs" Line="66" Column="56" />
       <File FileName="Wallace740-SmartApi/Query/GetProductsQuery.cs" Line="9" Column="1" />
       <File FileName="Wallace740-SmartApi/Command/InsertQueryHandler.cs" Line="8" Column="38" />
       <File FileName="Wallace740-SmartApi/Command/UpdateProductCommand.cs" Line="12" Column="10" />
@@ -23,6 +23,7 @@
       <File FileName="DALCore/Repositories/ProductRepository.cs" Line="45" Column="10" />
       <File FileName="Wallace740-SmartApi/Properties/launchSettings.json" Line="1" Column="1" />
       <File FileName="Wallace740-SmartApi/appsettings.json" Line="12" Column="64" />
+      <File FileName="Wallace740-SmartApi/WeatherForecast.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -46,7 +47,6 @@
               <Node name="OAuth" expanded="True" />
               <Node name="Properties" expanded="True" />
               <Node name="Query" expanded="True" />
-              <Node name="appsettings.json" selected="True" />
             </Node>
           </Node>
         </State>
